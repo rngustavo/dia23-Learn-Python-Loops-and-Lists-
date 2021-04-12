@@ -12,4 +12,9 @@ tasks = [
 
 
 #Your code go here:
+def isdone(task):
+    return task["done"]==True
 
+taskdone=list(filter(isdone, tasks))
+
+print(taskdone)

@@ -7,3 +7,7 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 
 
 #Your code go here:
+def subString(item):
+    return 'am' in item
+result=list(filter(subString,names ))
+print (result)

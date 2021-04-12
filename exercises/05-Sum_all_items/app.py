@@ -7,7 +7,5 @@ def sum_all_values(items):
     #The magic happens here:
     for item in items:
         total+=item
-   
-
     return total
 print(sum_all_values(my_sample_list))
